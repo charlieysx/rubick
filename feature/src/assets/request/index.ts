@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let baseURL = 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master';
+let baseURL = 'https://gitcode.net/charlieysx/rubick-database/-/raw/master';
 let access_token = '';
 
 try {
@@ -14,7 +14,7 @@ try {
 const instance = axios.create({
   timeout: 4000,
   baseURL:
-    baseURL || 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master',
+    baseURL || 'https://gitcode.net/charlieysx/rubick-database/-/raw/master',
 });
 
 export default {

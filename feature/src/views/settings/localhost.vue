@@ -27,7 +27,7 @@
       name="database"
     >
       <a-input
-        placeholder="https://gitcode.net/rubickcenter/rubick-database/-/raw/master"
+        placeholder="https://gitcode.net/charlieysx/rubick-database/-/raw/master"
         v-model:value="formState.database"
       />
     </a-form-item>
@@ -55,7 +55,7 @@ let _rev: any;
 
 let defaultConfig = {
   register: 'https://registry.npm.taobao.org',
-  database: 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master',
+  database: 'https://gitcode.net/charlieysx/rubick-database/-/raw/master',
   access_token: '',
 };
 
@@ -81,7 +81,7 @@ const layout = {
 const resetForm = () => {
   formState.value = {
     register: 'https://registry.npmmirror.com',
-    database: 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master',
+    database: 'https://gitcode.net/charlieysx/rubick-database/-/raw/master',
     access_token: '',
   };
 };

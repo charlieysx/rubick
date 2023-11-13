@@ -1,6 +1,6 @@
 {
   "name": "rubick",
-  "version": "4.1.6",
+  "version": "4.1.7",
   "author": "muwoo <2424880409@qq.com>",
   "private": true,
   "scripts": {
@@ -39,6 +39,7 @@
     "pouchdb-load": "^1.4.6",
     "pouchdb-replication-stream": "^1.2.9",
     "simple-plist": "0.2.1",
+    "spawn-sync": "^2.0.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0",
